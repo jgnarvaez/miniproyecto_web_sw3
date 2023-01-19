@@ -4,7 +4,7 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model Expanded="Yes" ID="{216D1F46-B557-4F88-98DA-DE3115C5149C}" Name="Miniproyecto Web" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../../Diagramas/Miniproyecto Web.oom"/>
+		<Model Expanded="Yes" ID="{A00A8D10-2435-4C6B-A50D-26595BFCBB99}" Name="Miniproyecto Web" Selected="Yes" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="Miniproyecto Web.cdm"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
