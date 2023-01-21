@@ -4,10 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Competencias</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Crear">Crear nueva</a>
 </p>
 <table class="table">
     <thead>
@@ -17,9 +17,6 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Competencia_Nombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IsActive)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Competencia_Tipo)
@@ -40,18 +37,15 @@
                 @Html.DisplayFor(modelItem => item.Competencia_Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IsActive)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Competencia_Tipo)
             </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Estado)
+                </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Estado)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                @Html.ActionLink("Actualizar", "Edit", new { id=item.Competencia_Id }) 
+                @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
+                @*@Html.ActionLink("Delete", "Delete", new { id=item.Competencia_Id })*@
             </td>
         </tr>
 }

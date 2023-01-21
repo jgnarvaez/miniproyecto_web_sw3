@@ -51,7 +51,8 @@ namespace appMiniproyecto.Repositories.CompetenciaRepository
 
         public bool UdateCompetencia(Competencia competencia)
         {
-            _context.Entry(competencia).State= EntityState.Modified;
+            _context.Update(competencia);
+            //_context.Entry(competencia).State= EntityState.Modified;
             return _context.SaveChanges() > 0;
         }
     }
