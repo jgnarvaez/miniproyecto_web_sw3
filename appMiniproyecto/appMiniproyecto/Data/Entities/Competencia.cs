@@ -16,7 +16,7 @@ namespace appMiniproyecto.Data.Entities
         public string Competencia_Nombre { get; set; }
 
         [Display(Name = "Estado")]
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
 
         [Display(Name = "Tipo de competencia")]
         public TipoCompetencia Competencia_Tipo { get; set; }
