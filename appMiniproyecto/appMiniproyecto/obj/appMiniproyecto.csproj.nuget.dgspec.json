@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DGALLEGO\\Downloads\\Proyecto Final\\appMiniproyecto\\appMiniproyecto\\appMiniproyecto.csproj": {}
+    "C:\\Users\\DGALLEGO\\Documents\\Visual Studio 2022\\Trabajo Final\\appMiniproyecto\\appMiniproyecto\\appMiniproyecto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DGALLEGO\\Downloads\\Proyecto Final\\appMiniproyecto\\appMiniproyecto\\appMiniproyecto.csproj": {
+    "C:\\Users\\DGALLEGO\\Documents\\Visual Studio 2022\\Trabajo Final\\appMiniproyecto\\appMiniproyecto\\appMiniproyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DGALLEGO\\Downloads\\Proyecto Final\\appMiniproyecto\\appMiniproyecto\\appMiniproyecto.csproj",
+        "projectUniqueName": "C:\\Users\\DGALLEGO\\Documents\\Visual Studio 2022\\Trabajo Final\\appMiniproyecto\\appMiniproyecto\\appMiniproyecto.csproj",
         "projectName": "appMiniproyecto",
-        "projectPath": "C:\\Users\\DGALLEGO\\Downloads\\Proyecto Final\\appMiniproyecto\\appMiniproyecto\\appMiniproyecto.csproj",
+        "projectPath": "C:\\Users\\DGALLEGO\\Documents\\Visual Studio 2022\\Trabajo Final\\appMiniproyecto\\appMiniproyecto\\appMiniproyecto.csproj",
         "packagesPath": "C:\\Users\\DGALLEGO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DGALLEGO\\Downloads\\Proyecto Final\\appMiniproyecto\\appMiniproyecto\\obj\\",
+        "outputPath": "C:\\Users\\DGALLEGO\\Documents\\Visual Studio 2022\\Trabajo Final\\appMiniproyecto\\appMiniproyecto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DGALLEGO\\AppData\\Roaming\\NuGet\\NuGet.Config",

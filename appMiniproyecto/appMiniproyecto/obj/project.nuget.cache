@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+/6Rmi8G6FI/aEbtxSBYJ43FVQUUSCkXpfHy1luv4AjXBznNSMaquyfaxUzr/ROZ8RblSrsWuzSsMslWylcAfw==",
+  "dgSpecHash": "EoHr3ysg7m6q1Ft8UGzEOnk7dgii3/VNjeqIzYmo3ffhSbIWndYJN2leQ/hmjPHWmqb6f4PAxZJ69MazQ3YuBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DGALLEGO\\Downloads\\Proyecto Final\\appMiniproyecto\\appMiniproyecto\\appMiniproyecto.csproj",
+  "projectFilePath": "C:\\Users\\DGALLEGO\\Documents\\Visual Studio 2022\\Trabajo Final\\appMiniproyecto\\appMiniproyecto\\appMiniproyecto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DGALLEGO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DGALLEGO\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
