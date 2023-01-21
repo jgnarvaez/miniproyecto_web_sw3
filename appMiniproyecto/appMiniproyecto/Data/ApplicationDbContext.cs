@@ -12,6 +12,7 @@ namespace appMiniproyecto.Data
         }
 
         public DbSet<Competencia> Competencias { get; set; }
+        public DbSet<Ambiente> Ambientes { get; set; }
     
     }
 }

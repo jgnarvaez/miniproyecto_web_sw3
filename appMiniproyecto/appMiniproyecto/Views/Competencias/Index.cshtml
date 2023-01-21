@@ -7,7 +7,7 @@
 <h1>Competencias</h1>
 
 <p>
-    <a asp-action="Crear">Crear nueva</a>
+    <a asp-action="Create">Crear nueva</a>
 </p>
 <table class="table">
     <thead>
@@ -43,7 +43,7 @@
                     @Html.DisplayFor(modelItem => item.Estado)
                 </td>
             <td>
-                @Html.ActionLink("Actualizar", "Edit", new { id=item.Competencia_Id }) 
+                @Html.ActionLink("Edit", "Edit", new { id=item.Competencia_Id }) 
                 @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
                 @*@Html.ActionLink("Delete", "Delete", new { id=item.Competencia_Id })*@
             </td>

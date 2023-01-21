@@ -1,5 +1,7 @@
 using appMiniproyecto.Data;
+using appMiniproyecto.Repositories.AmbienteRepository;
 using appMiniproyecto.Repositories.CompetenciaRepository;
+using appMiniproyecto.Services.AmbienteService;
 using appMiniproyecto.Services.CompetenciaService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +17,9 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddScoped<ICompetenciaRepository, CompetenciaRepository>();
 builder.Services.AddScoped<ICompetenciaService, CompetenciaService>();
+
+builder.Services.AddScoped<IAmbienteRepository, AmbienteRepository>();
+builder.Services.AddScoped<IAmbienteService, AmbienteService>();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => {
     options.User.RequireUniqueEmail = true;
